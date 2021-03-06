@@ -1,0 +1,105 @@
+html, body, main, .wrapper, .container {
+    height: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 600px;
+    border: solid 2px grey;
+
+}
+
+h3 {
+    text-align: right;
+    font-style: italic;
+}
+
+.left-block {
+    width: 35%;
+    background-color: rgb(44, 46, 46);
+    color: white;    
+}
+
+.left-block
+section
+article {
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.left-block
+section
+.photo-class {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+}
+
+.left-block
+section
+hr {
+   width: 50%;
+   margin: 0 0 0 50%;
+
+}
+
+.block {
+    /* float: left; */
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.right-block {
+    width: 64%;    
+    color: rgb(44, 43, 43);
+    /* display: inline-block; */
+    
+}
+
+.right-block 
+header {
+    padding-right: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+header
+hr {
+    width: 50%;
+    margin: 0 0 0 50%;
+}
+
+.right-block
+section
+hr {
+   width: 70%;
+   margin: 0 0 0 30%;
+
+}
+
+.right-block
+section
+article {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.right-block
+section
+article
+p {
+    text-indent: 1.5em;
+}
+
+footer {
+    /* clear: both; */
+    display: block;
+    text-align: center;
+    font-size: smaller;
+    border-top: grey;
+}

@@ -1,13 +1,7 @@
-html,
-body, main, .wrapper, .container {
-    height: 100%;
-}
-
-main {
-    margin: 0 auto;
-    width: 600px;
+body {
     border: solid 2px grey;
-
+    margin: 0 auto;
+    width: 80%;
 }
 
 h3 {
@@ -24,6 +18,7 @@ h3 {
     width: 35%;
     background-color: rgb(44, 46, 46);
     color: white;    
+    flex: 0.35;
 }
 
 .left-block section article {
@@ -40,24 +35,29 @@ h3 {
     border-radius: 200px;
 }
 
-.left-block section hr {
+.left-block hr {
    width: 50%;
    margin: 0 0 0 50%;
 
 }
 
-.block {
-    /* float: left; */
-    display: inline-block;
-    height: 100%;
-    vertical-align: top;
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
 }
 
 .right-block {
-    width: 64%;    
+    width: 64%;
     color: rgb(44, 43, 43);
     /* display: inline-block; */
-    
+    flex: 0.65;
 }
 
 .right-block header {
@@ -66,12 +66,7 @@ h3 {
     font-style: italic;
 }
 
-header hr {
-    width: 50%;
-    margin: 0 0 0 50%;
-}
-
-.right-block section hr {
+.right-block hr {
    width: 70%;
    margin: 0 0 0 30%;
 
@@ -89,11 +84,11 @@ header hr {
 }
 
 footer {
-    /* clear: both; */
     display: block;
     text-align: center;
     font-size: smaller;
-    border-top: grey;
+    padding-top: 15px;
+    background-color: #6d3030;
 }
 
 footer img {

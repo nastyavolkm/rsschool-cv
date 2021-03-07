@@ -1,0 +1,97 @@
+body {
+    border: solid 2px grey;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+h3 {
+    text-align: right;
+    font-style: italic;
+}
+
+.icons img {
+    height: 15px;
+
+}
+
+.left-block {
+    width: 35%;
+    background-color: rgb(44, 46, 46);
+    color: white;    
+    flex: 0.35;
+}
+
+.left-block section article {
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.left-block section .photo-class {
+    display: block;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+}
+
+.left-block hr {
+   width: 50%;
+   margin: 0 0 0 50%;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+}
+
+.right-block {
+    width: 64%;
+    color: rgb(44, 43, 43);
+    /* display: inline-block; */
+    flex: 0.65;
+}
+
+.right-block header {
+    padding-right: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+.right-block hr {
+   width: 70%;
+   margin: 0 0 0 30%;
+
+}
+
+.right-block section article {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.right-block section article p {
+    text-indent: 1.5em;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: smaller;
+    padding-top: 15px;
+    background-color: #6d3030;
+}
+
+footer img {
+    height: 15px;
+}
